@@ -23,8 +23,8 @@ body {
 }
 
 .timer .timer-wrapper {
-  width: 60%;
-  height: 25%;
+  width: 600px;
+  height: 200px;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -33,13 +33,13 @@ body {
 }
 
 .timer .timer-wrapper .timer-box {
-  width: 25%;
-  height: 100%;
+  width: 150px;
+  height: 200px;
 }
 
 .timer .timer-wrapper .timer-box .timer-box-card {
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 200px;
   perspective: 1000px;
   flex-direction: column;
   justify-content: center;
@@ -48,8 +48,8 @@ body {
 }
 
 .timer .timer-wrapper .timer-box .timer-box-card .up {
-  width: 90%;
-  height: 50%;
+  width: 130px;
+  height: 100px;
   text-align: center;
   color: #fb6087;
   background: #8486a9;
@@ -60,6 +60,8 @@ body {
 }
 
 .timer .timer-wrapper .timer-box .timer-box-card .up .num-up {
+  width: 100px;
+  height: 100px;
   transition: fade-in .5s;
   position: absolute;
   bottom: 0%;
@@ -68,8 +70,8 @@ body {
 }
 
 .timer .timer-wrapper .timer-box .timer-box-card .down {
-  width: 90%;
-  height: 50%;
+  width: 130px;
+  height: 100px;
   text-align: center;
   color: #b03654;
   background: #343650;
@@ -80,6 +82,8 @@ body {
 }
 
 .timer .timer-wrapper .timer-box .timer-box-card .down .num-down {
+  width: 100px;
+  height: 100px;
   transition: fade-in .5s;
   position: absolute;
   top: 0%;
@@ -88,7 +92,7 @@ body {
 }
 
 .timer .timer-description {
-  width: 60%;
+  width: 600px;
   height: 20px;
   justify-content: center;
   align-items: center;
@@ -97,7 +101,7 @@ body {
 }
 
 .timer .timer-description .timer-descripption-text {
-  width: 25%;
+  width: 150px;
   text-align: center;
   color: #8486a9;
   text-transform: uppercase;

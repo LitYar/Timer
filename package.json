@@ -2,7 +2,6 @@
   "name": "timer",
   "version": "1.0.0",
   "description": "![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)",
-  "main": "src/index.js",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {

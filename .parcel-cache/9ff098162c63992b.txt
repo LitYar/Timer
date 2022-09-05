@@ -23,7 +23,7 @@
 90C:\Users\User\Desktop\Timer\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js133067604728705534 0
 83C:\Users\User\Desktop\Timer\node_modules\utility-types\dist\aliases-and-guards.d.ts133067604733722116 0
 61C:\Users\User\Desktop\Timer\node_modules\type-fest\index.d.ts133067604734051232 0
-32C:\Users\User\Desktop\Timer\dist133068488893298169 1
+32C:\Users\User\Desktop\Timer\dist133068500936926760 1
 72C:\Users\User\Desktop\Timer\node_modules\caniuse-lite\data\regions\GF.js133067604760973281 0
 82C:\Users\User\Desktop\Timer\node_modules\electron-to-chromium\chromium-versions.js133067604718612545 0
 55C:\Users\User\Desktop\Timer\node_modules\is-binary-path133067721035501069 1
@@ -35,7 +35,7 @@
 57C:\Users\User\Desktop\Timer\node_modules\type-fest\source133067604743456064 1
 57C:\Users\User\Desktop\Timer\node_modules\domutils\LICENSE133067604717146465 0
 71C:\Users\User\Desktop\Timer\node_modules\escape-string-regexp\readme.md133067604721893766 0
-38C:\Users\User\Desktop\Timer\.gitignore133067607263005379 0
+38C:\Users\User\Desktop\Timer\.gitignore133068503873583006 0
 69C:\Users\User\Desktop\Timer\node_modules\@parcel\reporter-cli\LICENSE133067604717475588 0
 40C:\Users\User\Desktop\Timer\node_modules133067847911280711 1
 34C:\Users\User\Desktop\Timer\images133067562458238883 1
@@ -55,7 +55,7 @@
 72C:\Users\User\Desktop\Timer\node_modules\caniuse-lite\data\regions\GL.js133067604761063043 0
 69C:\Users\User\Desktop\Timer\node_modules\electron-to-chromium\LICENSE133067604717256169 0
 67C:\Users\User\Desktop\Timer\node_modules\@parcel\utils\package.json133067604749084791 0
-31C:\Users\User\Desktop\Timer\src133067913788082611 1
+31C:\Users\User\Desktop\Timer\src133068499812276454 1
 57C:\Users\User\Desktop\Timer\node_modules\posthtml\license133067604717306038 0
 87C:\Users\User\Desktop\Timer\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js133067604719649766 0
 46C:\Users\User\Desktop\Timer\README-template.md132598023730000000 0
@@ -95,7 +95,7 @@
 72C:\Users\User\Desktop\Timer\node_modules\caniuse-lite\data\regions\AG.js133067604730630404 0
 47C:\Users\User\Desktop\Timer\node_modules\@types133067604690916269 1
 92C:\Users\User\Desktop\Timer\node_modules\animate.css\source\fading_exits\fadeOutRightBig.css133067847908539366 0
-42C:\Users\User\Desktop\Timer\src\style.scss133068484444535213 0
+42C:\Users\User\Desktop\Timer\src\style.scss133068500935736934 0
 102C:\Users\User\Desktop\Timer\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc133067604718413079 0
 78C:\Users\User\Desktop\Timer\node_modules\utility-types\dist\utility-types.d.ts133067604735706800 0
 92C:\Users\User\Desktop\Timer\node_modules\caniuse-lite\data\features\css-container-queries.js133067604753842093 0
@@ -4473,8 +4473,8 @@
 59C:\Users\User\Desktop\Timer\dist\favicon-32x32.654148d5.png133067853156173979 0
 50C:\Users\User\Desktop\Timer\dist\index.975ef6c8.js133068488893248335 0
 54C:\Users\User\Desktop\Timer\dist\index.975ef6c8.js.map133068488893288198 0
-51C:\Users\User\Desktop\Timer\dist\index.b2d9cf43.css133068484445550422 0
-55C:\Users\User\Desktop\Timer\dist\index.b2d9cf43.css.map133068484445610262 0
+51C:\Users\User\Desktop\Timer\dist\index.b2d9cf43.css133068500936869004 0
+55C:\Users\User\Desktop\Timer\dist\index.b2d9cf43.css.map133068500936909523 0
 51C:\Users\User\Desktop\Timer\dist\index.d87d0efc.css133067612973568405 0
 43C:\Users\User\Desktop\Timer\dist\index.html133068413002267995 0
 67C:\Users\User\Desktop\Timer\dist\roboto-black-webfont.f7c4c3b3.woff133067612972740610 0
