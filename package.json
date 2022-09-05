@@ -2,9 +2,12 @@
   "name": "timer",
   "version": "1.0.0",
   "description": "![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "main": "src/index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel --open",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/LitYar/Timer/issues"
   },
-  "homepage": "https://github.com/LitYar/Timer#readme"
+  "homepage": "https://github.com/LitYar/Timer#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }

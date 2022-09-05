@@ -1,0 +1,129 @@
+
+$Grayish_blue: hsl(237, 18%, 59%);
+$Soft_red_up: hsl(345, 53%, 45%);
+$Soft_red: hsl(345, 95%, 68%);
+$White: hsl(0, 0%, 100%);
+$Dark_desaturated_blue: hsl(236, 21%, 26%);
+$Very_dark_blue: hsl(235, 16%, 14%);
+$Very_dark: hsl(234, 17%, 12%);
+
+* {
+    font-family: 'Red Hat Text', sans-serif;
+}
+body {
+    font-size: 14px;
+}
+.timer {
+    display: block;
+    background: $Very_dark_blue;
+    max-width: 1440px;
+    height: 100vh;
+    padding: 60px 0 40px 0;
+    .timer-title {
+        text-align: center;
+        color: $White;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        margin-bottom: 40px;
+    }
+    .timer-wrapper {
+        width: 60%;
+        height: 25%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin: 0 auto;
+        overflow: hidden;
+        .timer-box {
+            width: 25%;
+            height: 100%;
+            .timer-box-card {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                perspective: 1000;
+                .up {
+                    width: 90%;
+                    height: 50%;
+                    position: relative;
+                    text-align: center;
+                    font-size: 80px;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    background:$Grayish_blue;
+                    color:$Soft_red;
+                    .num-up {
+                        transition: 0.5s fade-in;
+                        position: absolute;
+                        bottom: 0%;
+                        left: 50%;
+                        transform: translate(-50%, 50%);    
+                    }
+                }
+                .down {
+                    width: 90%;
+                    height: 50%;
+                    position: relative;
+                    text-align: center;
+                    font-size: 80px;
+                    border-radius:5px;
+                    overflow: hidden;
+                    background:$Dark_desaturated_blue;
+                    color:$Soft_red_up;
+                    .num-down {
+                        transition: 0.5s fade-in;
+                        position: absolute;
+                        top: 0%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+            }
+        }
+    }
+    .timer-description {
+        display: flex;
+        width: 60%;
+        height: 20px;
+        justify-content: center;
+        align-items:center;
+        margin: 0 auto;
+        margin-top: 20px;
+        .timer-descripption-text {
+            width: 25%;
+            text-align: center;
+            color: $Grayish_blue;
+            text-transform: uppercase;
+            letter-spacing: 0.3rem;
+        }
+    }
+}
+
+.rotate {
+    transition: all 0.5s;
+    transform: rotateX(180deg);
+
+}
+.front {
+    transition: 0.5s;
+    background:$Grayish_blue !important;
+    color:$Soft_red !important;
+}
+.back {
+    transition: 0.5s;
+    background:$Dark_desaturated_blue !important;
+    color:$Soft_red_up !important;
+}
+.numRotateUp {
+    top: 0% !important;
+    left: 50% !important;
+    transform: translate(-50%, 50%) rotateX(-180deg) !important;
+}
+.numRoteteDown {
+    bottom: 0% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) rotateX(-180deg) !important; 
+}
